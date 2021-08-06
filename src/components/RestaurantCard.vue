@@ -36,11 +36,19 @@ export default {
     }
     .restaurant-informations {
         .top {
+            margin:10px 0px;
             display: flex;
             align-items: center;
             justify-content: space-between;
             .note{
                 background-color: #eee;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                width:30px;
+                height:30px;
+                font-size: 0.8rem;
+                border-radius: 50%;
             }
         }
         .time {
