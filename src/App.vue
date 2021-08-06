@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    <RestaurantCard></RestaurantCard>
+    <Home />
   </div>
 </template>
 
 <script>
-import RestaurantCard from '@/components/RestaurantCard.vue'
-
+import Home from '@/page/Home'
 export default {
   name: 'App',
   components: {
-    RestaurantCard
+  Home
   }
   
 }
@@ -21,5 +20,6 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 #app {
   font-family: 'Roboto, sans-serif';
+  padding: 20px;
 }
 </style>
